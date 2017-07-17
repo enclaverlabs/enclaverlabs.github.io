@@ -512,7 +512,7 @@ a:hover {
 	padding-left: 45px;
 }
 
-/* Responsive mode */
+/* Responsive mode
 @media (max-width: 1200px) {
 	.btn-u.btn-banner {
 		margin-bottom: 20px;
@@ -522,6 +522,7 @@ a:hover {
 		min-height: 640px;
 	}
 }
+*/
 
 @media (max-width: 992px) {
 	.interactive-slider-v2 img {
