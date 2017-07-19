@@ -64,6 +64,13 @@ h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
 	margin-right: 5px;
 }
 
+/* class for rounded team avas */
+.roundedAvas {
+	border-radius:100%;
+	max-width:70%;
+  max-height:70%;
+}
+
 /*Block Headline*/
 .headline {
 	display: block;
