@@ -2,7 +2,7 @@
 session_start();
 if( isset($_POST['name']) && strtoupper($_POST['captcha']) == $_SESSION['captcha_id'] )
 {
-	$to = 'sales@enclaver.com'; // Replace with your email
+	$to = 'info@enclaver.com'; // Replace with your email
 	$subject = 'Message from Enclaver.com'; // Replace with your $subject
 	$headers = 'From: ' . $_POST['email'] . "\r\n" . 'Reply-To: ' . $_POST['email'];
 
